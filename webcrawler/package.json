@@ -1,0 +1,14 @@
+{
+  "name": "09-02-puppeteer-crawling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.9.0",
+    "puppeteer": "^19.5.2",
+    "request": "^2.88.2"
+  }
+}

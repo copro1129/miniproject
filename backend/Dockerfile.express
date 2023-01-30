@@ -1,0 +1,13 @@
+FROM node:18
+
+WORKDIR /mini_project/
+COPY ./package.json /mini_project/
+COPY ./yarn.lock /mini_project/
+RUN yarn install
+
+COPY . /mini_project/
+CMD yarn dev
+
+
+
+
